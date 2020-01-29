@@ -1,0 +1,8 @@
+<h1>Exercices <i>observable</i> </h1>
+<h3>Binôme : BENABDELAZIZ Sarrah & ZERROUROU Celia</h3>
+<ul class="menu">
+    <li><button (click)="setExample(10)">Exercice 1</button></li>
+    <li><button (click)="setExample(11)">Exercice 2</button></li>
+</ul>
+<app-exercice1 *ngIf="currentExample===10"></app-exercice1>
+<app-exercice2 *ngIf="currentExample===11"></app-exercice2>
